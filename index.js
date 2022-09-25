@@ -1,11 +1,4 @@
-function add(a, b) {
+export function add(a, b) {
   return a + b
 }
 
-try {
-  module.exports = {
-    add
-  }
-} catch (error) {
-
-}
